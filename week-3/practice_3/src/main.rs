@@ -4,8 +4,8 @@ fn main(){
     let cost :f64 = 15000.600;
 
 
-     println!("result value is {}" result);
-     println!("insterest is{}" interest);
-     println!("cost is  {}" cost);
+     println!("result value is {}", result);
+     println!("insterest is{}" ,interest);
+     println!("cost is  {}" ,cost);
 
 }

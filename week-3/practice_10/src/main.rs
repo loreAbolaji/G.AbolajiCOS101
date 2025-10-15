@@ -3,10 +3,10 @@ fn main(){
     let sum = 5550 + 7310;
     println!("the sum of 5550 and 7310={}", sum);
 
-    let difference:u32 = 95.5 - 4.3;
+    let difference:f32 = 95.5 - 4.3;
     println!("the sum of 5550 and 7310={}", difference);
 
-    let product :f32 = 4 * 30;
+    let product :i32 = 4 * 30;
     println!("the sum of 5550 and 7310={}", product);
 
     let quotient = 56.7 / 32.2;
