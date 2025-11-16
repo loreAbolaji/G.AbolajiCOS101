@@ -22,4 +22,5 @@ fn checker() {
 
 fn main (){
     println!("welcome ! this peogram checks wherther a character variable contains a digit or not ");
+    checker()
 }
