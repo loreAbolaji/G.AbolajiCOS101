@@ -3,6 +3,7 @@ fn main (){
     let mut city :Vec<String> = Vec::new();
     println!("the city vector has element {} ", city .len());
     let  mut input1 = String::new();
+    println!("how many cities do you want to enter ");
     io::stdin()
     .read_line(&mut input1)
     .expect("not a valid input");
@@ -16,9 +17,9 @@ fn main (){
         io::stdin()
         .read_line(&mut input2)
         .expect("not a valid input");
-        let new_city:String = input2 ;
-        .parse()
+        let new_city:String = input2 
         .trim()
+        .parse()
         .expect("not a valid input");
         city.push(new_city)
 
