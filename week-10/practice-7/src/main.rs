@@ -3,7 +3,7 @@ struct employee{
     company:String,
     age :u32
 }
-fn main() {
+fn main() { //
     let emp1 = employee{
         company:String::from("enrst & young"),
         name:String::from("ebiiong jessica"),
