@@ -1,3 +1,17 @@
+
+struct rectangle{
+width:u32 , height:u32
+}
+impl rectangle{
+    fn area(&self)->u32{
+        self.width * self.height
+    }
+}
+
 fn main() {
-    println!("Hello, world!");
+let small = rectangle{
+    width:10;
+    height:20;
+};
+println!("width is {} \n  height is {} \n area of rectangle is {} ", small.width , small.height, small.area());
 }
